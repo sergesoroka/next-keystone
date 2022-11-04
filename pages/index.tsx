@@ -15,6 +15,7 @@ interface Fake {
 }
 // @ts-ignore
 export default function Home({ fakes }: Fake[]) {
+  // @ts-ignore
   const rendered = fakes.map((fake) => {
     return (
       <div key={fake.id}>
