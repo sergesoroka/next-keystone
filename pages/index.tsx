@@ -13,7 +13,7 @@ interface Fake {
   date: string;
   verdict: string;
 }
-
+// @ts-ignore
 export default function Home({ fakes }: Fake[]) {
   const rendered = fakes.map((fake) => {
     return (
